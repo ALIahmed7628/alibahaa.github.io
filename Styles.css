@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}https://wearedevs.net/d/Krnl#google_vignette
+
+body {
+    font-family: 'Noto Sans Arabic', system-ui, -apple-system, sans-serif;
+    direction: rtl;
+    background-color: white;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+.min-h-screen { min-height: 100vh; }
+.bg-white { background-color: white; }
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.text-center { text-align: center; }
+.w-full { width: 100%; }
+.h-full { height: 100%; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.rounded-full { border-radius: 50%; }
+.overflow-hidden { overflow: hidden; }
+.object-cover { object-fit: cover; }
+.font-bold { font-weight: 700; }
+.font-semibold { font-weight: 600; }
+.leading-relaxed { line-height: 1.625; }
+.space-y-4 > * + * { margin-top: 1rem; }
+.space-x-reverse > * + * { margin-right: 0.5rem; }
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.max-w-md { max-width: 28rem; }
+.p-4 { padding: 1rem; }
+.p-6 { padding: 1.5rem; }
+.p-8 { padding: 2rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-3 { margin-bottom: 0.75rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+.mb-8 { margin-bottom: 2rem; }
+.mt-3 { margin-top: 0.75rem; }
+.mt-6 { margin-top: 1.5rem; }
+.mt-8 { margin-top: 2rem; }
+.ml-3 { margin-left: 0.75rem; }
+.pt-6 { padding-top: 1.5rem; }
+
+.card {
+    background-color: #000;
+    color: white;
+    border-radius: 1.5rem;
+}
+
+.rounded-3xl { border-radius: 1.5rem; }
+.rounded-xl { border-radius: 0.75rem; }
+.rounded-2xl { border-radius: 1rem; }
+
+.card-shadow {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.bg-black { background-color: #000; }
+
+.w-24 { width: 6rem; }
+.h-24 { height: 6rem; }
+.ring-4 { box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2); }
+.ring-primary-20 { box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2); }
+
+.text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+.text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+.text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+.text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+.text-2xl { font-size: 1.5rem; line-height: 2rem; }
+
+.text-white { color: white; }
+.text-gray-300 { color: #d1d5db; }
+.text-gray-400 { color: #9ca3af; }
+.text-gray-600 { color: #4b5563; }
+.text-blue-400 { color: #60a5fa; }
+.text-green-400 { color: #4ade80; }
+
+.social-btn {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-effect:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.instagram-gradient {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.tiktok-gradient {
+    background: linear-gradient(45deg, #ff0050 0%, #000000 50%, #00f2ea 100%);
+}
+
+.discord-gradient {
+    background: linear-gradient(45deg, #7289da 0%, #5865f2 100%);
+}
+
+.skills-card-bg {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.skill-badge {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    transition: background-color 0.3s ease;
+}
+
+.skill-badge:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.flex-wrap { flex-wrap: wrap; }
+.gap-2 { gap: 0.5rem; }
+.border-t { border-top-width: 1px; }
+.border-gray-600 { border-color: #4b5563; }
+.border-0 { border-width: 0; }
+.w-2 { width: 0.5rem; }
+.h-2 { height: 0.5rem; }
+.bg-green-400 { background-color: #4ade80; }
+
+@media (max-width: 640px) {
+    .p-4 { padding: 0.75rem; }
+    .p-8 { padding: 1.5rem; }
+    .text-3xl { font-size: 1.5rem; line-height: 2rem; }
+    .text-lg { font-size: 1rem; line-height: 1.5rem; }
+}
